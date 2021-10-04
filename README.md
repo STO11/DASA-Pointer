@@ -1,6 +1,6 @@
 ## Clock in
 
- Perform clock in at dextra/cinq intra from 8-17 (8-12 and 13-17)
+ Perform clock in at Dasa intra from 8-17 (8-12 and 13-17)
  
 # Installation
 
