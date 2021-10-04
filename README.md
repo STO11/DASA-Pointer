@@ -16,5 +16,5 @@ At root run `yarn`
 
 # Running
 
-- Select your weekdays constatint at integration/clockin.spec.js
+- Put a start and end date of the period integration/clockin.spec.js
 - Run the test with `yarn cy` and select integration/clockin.spec.js
