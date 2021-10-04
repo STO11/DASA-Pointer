@@ -10,7 +10,7 @@ At root run `yarn`
 
 ## First Run
 
-- Run `yarn cypress open`
+- Run `yarn cy`
 - Open the cypress and run the integration/clockin.spec.js test at chrome
 - At the chrome opened create a new tab and perform login at dextra's intranet
 - Run the integration/clockin.spec.js again
