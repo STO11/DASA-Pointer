@@ -18,4 +18,4 @@ At root run `yarn`
 # Running
 
 - Select your weekdays constatint at integration/clockin.spec.js
-- Run the test with `yarn cypress open` and select integration/clockin.spec.js
+- Run the test with `yarn cy` and select integration/clockin.spec.js
