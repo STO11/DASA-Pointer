@@ -1,0 +1,5 @@
+{
+  "chromeWebSecurity": false,
+  "coverage": true,
+  "defaultCommandTimeout": 10000
+}
