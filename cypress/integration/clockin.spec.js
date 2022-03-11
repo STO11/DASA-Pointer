@@ -13,8 +13,8 @@ const timeZone = {
   timeZone: "America/Sao_Paulo",
 };
 
-const initialDate = new Date("2021-09-28"); //TODO: COLOQUE A DATA QUE VOCÊ QUER INICIAR O RASTREAMENTO
-const endDate = new Date(); //TODO: COLOQUE A DATA FINAL EX: "2021-10-04"  OU SE QUISER A DATA ATUAL DEIXE COMO ESTÁ
+const initialDate = new Date("2022-03-02"); //TODO: COLOQUE A DATA QUE VOCÊ QUER INICIAR O RASTREAMENTO
+const endDate = new Date("2022-03-10"); //TODO: COLOQUE A DATA FINAL EX: "2021-10-04"  OU SE QUISER A DATA ATUAL DEIXE COMO ESTÁ
 
 const getDatesBetween = (startDate, endDate) => {
   const days = differenceInDays(addDays(endDate, 1), startDate);
@@ -63,13 +63,13 @@ context("clock in spec", () => {
 
     cy.get("span[id=submitButton]").should("be.visible").click();
 
-    cy.wait(5000);
+    // cy.wait(5000);
 
-    cy.contains("Home").should("be.visible");
+    // cy.contains("Home").should("be.visible");
 
     cy.wait(1000);
 
-    cy.get("[id=__tile2]").should("be.visible").click();
+    cy.get("[id=__tile8]").should("be.visible").click();
 
     cy.wait(1000);
 
